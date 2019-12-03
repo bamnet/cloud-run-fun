@@ -1,0 +1,7 @@
+server {
+  # Cloud Run will supply a $PORT env which we should listen on.
+  listen ${PORT};
+
+  # The rest of the server config is up to the user.
+  ${CONFIG}
+}
