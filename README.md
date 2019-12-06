@@ -9,3 +9,5 @@ Docker image running nginx which loads it's config from a $CONFIG enviroment var
 Container: gcr.io/cloud-run-fun/nginx
 
 [![Run on Google Cloud](https://deploy.cloud.run/button.svg)](https://console.cloud.google.com/run/create?image=gcr.io%2Fcloud-run-fun%2Fnginx:latest)
+
+For more info, see this blogpost: https://dev.to/bamnet/dynamic-nginx-config-on-cloud-run-hpc.
